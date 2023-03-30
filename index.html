@@ -2,8 +2,7 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -79,7 +79,7 @@
     <main>
         <!--Header Section-->
         <header class="header-section">
-            <div class="header-container container">
+            <div class="header-container container ">
                 <a class="logo" href="WebStudio"><span class="first__style">Web</span>Studio</a>
                 <nav class="navigation-block menu">
                     <ul class="navigation-block__grid unstyled-list">
@@ -115,6 +115,7 @@
                     </svg>
                 </button>
             </div>
+
         </header>
         <!--Efective Section-->
         <section class="efective-section">
@@ -394,37 +395,21 @@
                     clip-rule="evenodd"></path>
             </svg>
         </button>
-        <ul class="unstyled-list">
-            <li><a href="index.html">Studio</a>
+
+        <ul class="navigation-block__grid unstyled-list">
+            <li><a class="navigation-block__link-style" href="index.html">Studio</a>
             </li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-            <li><a href="Contacts">Contacts</a></li>
+            <li><a class="navigation-block__link-style" href="portofolio.html">Portofolio</a></li>
+            <li><a class="navigation-block__link-style" href="Contacts">Contacts</a></li>
         </ul>
-        <ul class="unstyled-list">
-            <li>
-                <a href="tel:+1212-772-4150">+1
-                    212-772-4150</a>
+        <ul class="right-navigation__grid unstyled-list">
+            <li class="header-icon__items">
+                <a class="navigation-block__link-style right-side-style"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com
-                </a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <p>Instagram</p>
-            </li>
-            <svg>
-                <use href="./images/icons.svg.#icon-Line-1"></use>
-            </svg>
-            <li>
-                <p>Twitter</p>
-            </li>
-            <li>
-                <p>Facebook</p>
-            </li>
-            <li>
-                <p>linkedIn</p>
+                <a class="navigation-block__link-style right-side-style" href="tel:+1212-772-4150">+1
+                    212-772-4150 </a>
             </li>
         </ul>
     </div>
