@@ -271,7 +271,6 @@ body {
 }
 
 .footer-vect {
-    padding-left: 94px;
     display: flex;
     flex-direction: column;
     height: 80px;
@@ -773,7 +772,6 @@ body {
 .newsletter {
     align-items: flex-end;
     display: flex;
-    padding-left: 93px;
 }
 
 .newsletter__text {
