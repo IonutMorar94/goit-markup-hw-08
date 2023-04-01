@@ -96,3 +96,8 @@
         flex-wrap: wrap;
     }
 }
+@media screen and (min-width: 1200px) {
+    .team__image {
+        width: 270px;
+    }
+}
